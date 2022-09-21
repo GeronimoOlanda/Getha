@@ -7,9 +7,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{6DB42DD5-A7E0-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{C8747B70-32AB-4D94-80AF-46590A544A41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Getha_WebSite", "Getha_WebSite\Getha_WebSite.csproj", "{10B01316-4CF9-4F6C-89CB-5C46F8371D37}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10B01316-4CF9-4F6C-89CB-5C46F8371D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B01316-4CF9-4F6C-89CB-5C46F8371D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B01316-4CF9-4F6C-89CB-5C46F8371D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B01316-4CF9-4F6C-89CB-5C46F8371D37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10B01316-4CF9-4F6C-89CB-5C46F8371D37} = {6DB42DD5-A7E0-4CF6-95F4-5C4183951B8E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48FCFE29-536C-47B0-A301-66631E2B3542}
