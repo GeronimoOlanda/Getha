@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Getha.Domain.Entities", "Ge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Getha.Domain.Util", "Getha.Domain.Util\Getha.Domain.Util.csproj", "{C1D69197-8482-4406-B70E-8F7E5B6376F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Getha.Domain.Repository.Impl", "Getha.Domain.Repository.Impl\Getha.Domain.Repository.Impl.csproj", "{5A48BF68-1BA4-4D65-9BDC-826992CB793D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Getha.Domain.Services.Impl", "Getha.Domain.Services.Impl\Getha.Domain.Services.Impl.csproj", "{FEAD8536-741C-4054-9BC8-69649285AFAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{C1D69197-8482-4406-B70E-8F7E5B6376F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1D69197-8482-4406-B70E-8F7E5B6376F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1D69197-8482-4406-B70E-8F7E5B6376F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A48BF68-1BA4-4D65-9BDC-826992CB793D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A48BF68-1BA4-4D65-9BDC-826992CB793D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A48BF68-1BA4-4D65-9BDC-826992CB793D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A48BF68-1BA4-4D65-9BDC-826992CB793D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEAD8536-741C-4054-9BC8-69649285AFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAD8536-741C-4054-9BC8-69649285AFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAD8536-741C-4054-9BC8-69649285AFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAD8536-741C-4054-9BC8-69649285AFAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +68,8 @@ Global
 		{E62E946F-200E-4689-8A9E-E3A0FDB04635} = {C8747B70-32AB-4D94-80AF-46590A544A41}
 		{DBCBD760-4993-41FA-85A0-D801DA07F9FC} = {C8747B70-32AB-4D94-80AF-46590A544A41}
 		{C1D69197-8482-4406-B70E-8F7E5B6376F7} = {C8747B70-32AB-4D94-80AF-46590A544A41}
+		{5A48BF68-1BA4-4D65-9BDC-826992CB793D} = {6D466609-535A-49B5-820F-2031918CE3AB}
+		{FEAD8536-741C-4054-9BC8-69649285AFAE} = {6D466609-535A-49B5-820F-2031918CE3AB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48FCFE29-536C-47B0-A301-66631E2B3542}
